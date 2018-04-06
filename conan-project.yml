@@ -1,0 +1,19 @@
+HelloB:
+    folder: B
+    includedirs: src
+    cmakedir: src
+    build: build
+    libdirs: build/{build_type}
+HelloC:
+    folder: C
+    includedirs: src
+    cmakedir: src
+    build: build
+    libdirs: build/{build_type}
+HelloA:
+    folder: A
+    cmakedir: src
+    build: build
+
+generator: cmake
+name: MyProject
