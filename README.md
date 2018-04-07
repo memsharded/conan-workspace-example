@@ -8,7 +8,7 @@ The syntax of conan-project.yml is:
 
 ```yaml
 HelloB: # The package name that will be remapped to user instead of cache
-    folder: B # The relative path in which this package is (relative to conan-rpoject)
+    folder: B # The relative path in which this package is (relative to conan-project)
     includedirs: src # Path to look for includes
     cmakedir: src # Information to generate meta-project
     build: build # Relative path to put the build
