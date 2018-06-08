@@ -4,8 +4,8 @@
 void helloC(){
     
     #ifdef NDEBUG
-    std::cout << "Bye Moon C Release!" <<std::endl;
+    std::cout << "Hello World C Release!" <<std::endl;
     #else
-    std::cout << "Bye Moon C Debug!" <<std::endl;
+    std::cout << "Hello World C Debug!" <<std::endl;
     #endif
 }

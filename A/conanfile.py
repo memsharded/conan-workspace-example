@@ -1,7 +1,8 @@
 from conans import ConanFile, CMake
+
 class Pkg(ConanFile):
     settings = "os", "compiler", "arch", "build_type"
-    requires = "HelloB/0.1@lasote/stable"
+    requires = "HelloB/0.1@user/testing"
     generators = "cmake"
     exports_sources = "src/*"
 
