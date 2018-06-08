@@ -7,6 +7,6 @@ void helloB(){
     #ifdef NDEBUG
     std::cout << "Hello World B Release!" <<std::endl;
     #else
-    std::cout << "Hello World  B Debug!" <<std::endl;
+    std::cout << "Hello World B Debug!" <<std::endl;
     #endif
 }
